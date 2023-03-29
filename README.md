@@ -1,6 +1,5 @@
 # AulaJava
-
-                             <h1><strong><center> TIPOS DE DADOS EM JAVA </center></strong></h1> #0000CD
+                                       TIPOS DE DADOS EM JAVA 
   
 -Tipos primitivos: byte, short, int, long, boolean, char, float, double;
 
@@ -15,7 +14,7 @@ DOUBLE: Números em notação de ponto flutuante, 64 bits;
 
 
 
-                           <html><strong>  ESTRUTURAL CONDICIONAL EM JAVA </strong></html> 
+                                  ESTRUTURAL CONDICIONAL EM JAVA
 
 
 
@@ -29,7 +28,7 @@ Estruturas condicionais permitem criar possibilidades diferentes em um sistema, 
 
 
 
-                               ● If/Case 
+                               ● If/Else
 
 If= se 
 Else= Senao 
@@ -66,14 +65,51 @@ A mesma linha de raciocínio, no entanto se a idade digitado do usuário foi men
 
 
 
--Switch/Case: Ela vem como alternativa para "susbtituir os IF/ELSE", em grandes quantidades, "opções de escolha". Exemplo os meses do ano.
-Usa-se o Switch/Case pata substituir múltiplos if/elses, e de certa forma deixando o código mais organizado
+-Switch/Case: Ela vem como alternativa para "susbtituir os IF/ELSE", em grandes quantidades, "opções de escolha".  
+ Usa-se o Switch/Case para substituir múltiplos if/elses, e de certa forma deixando o código mais organizado 
+
+Switch = Troca
+Case = Caso
+
+Exemplo de uso 
+
+
+Int   mes = 3
+
+Switch (mes) {
+
+Case 1 :
+System.out.println (" O mês é janeiro);
+Break;
+
+Case 2 :
+System.out.println (" O mês é fevereiro);
+Break;
+
+Case 3 :
+System.out.println (" O mês é março);
+Break;
+
+Case 4 :
+System.out.println (" O mês é abril );
+Break;
+         
+
+default:
+   System.out.println(“Mês inválido”);
+   break;
+  }
+
+
+ANALISANDO O CÓDIGO 
+
+O Switch case irá testar o valor contido na variável, comparando com cada uma das opções, determinadas pelo Case, assim quando o o valor corresponden ao valor da variável o sistema irá executar, caso nenhuma se relaciona, o último blobo( default ) irá ser executado.
+
+Obs: Cada Case precisa de uma "terminação", sendo determinada pelo palavra Break
 
 
 
-
-
-Estrutura de Repetição 
+                                 ESTRUTURA DE REPETIÇÃO 
 
 
 
