@@ -14,7 +14,7 @@ DOUBLE: Números em notação de ponto flutuante, 64 bits;
 
 
 
-                                  ESTRUTURAL CONDICIONAL EM JAVA
+                                 ### ESTRUTURAL CONDICIONAL EM JAVA
 
 
 
@@ -103,13 +103,13 @@ default:
 
 ANALISANDO O CÓDIGO 
 
-O Switch case irá testar o valor contido na variável, comparando com cada uma das opções, determinadas pelo Case, assim quando o o valor corresponden ao valor da variável o sistema irá executar, caso nenhuma se relaciona, o último blobo( default ) irá ser executado.
+O Switch case irá testar o valor contido na variável, comparando com cada uma das opções, determinadas pelo Case, assim quando o o valor corresponden ao valor da variável o sistema irá executar, caso nenhuma se relaciona, o último blobo (default) irá ser executado.
 
 Obs: Cada Case precisa de uma "terminação", sendo determinada pelo palavra Break
 
 
 
-                                 ESTRUTURA DE REPETIÇÃO 
+                                  ESTRUTURA DE REPETIÇÃO
 
 Estruturas que permitem repetir uma série de operações. Simplesmente repetir uma operação até que uma condição seja executada, também conhecidas como loops
 
