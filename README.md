@@ -111,6 +111,77 @@ Obs: Cada Case precisa de uma "terminação", sendo determinada pelo palavra Bre
 
                                  ESTRUTURA DE REPETIÇÃO 
 
+Estruturas que permitem repetir uma série de operações. Simplesmente repetir uma operação até que uma condição seja executada, também conhecidas como loops
+
+For: estrutura na qual seu ciclo será executado por um tempo determinado, em quantidade determinada por nós.
+While: diferente do FOR, o while é utilizado quando não sabemos de forma firme quantas vezes o código será repetido.
+
+
+                                  * For
+
+For = para.
+
+Estrutura do FOR
+
+for (<variavel de controle>, <analise da variavel>, <incremento>) {
+//código determinado
+}
+
+Exemplo utilizando o FOR
+
+public class ExemploUtilizacao {
+	
+    public static void main(String[] args) {
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(“A variável i agora vale “ + i);
+        }
+    }
+	
+}
+
+ANALISANDO O CÓDIGO
+
+O exemplo acima retrata a situação de que "A variável i vale 0, A variável i vale 1, A variável i vale 2, A variável i vale 3..." e assim até parar na variável i valendo 10. Isso acontece porque o i tem como valor inicial 0, e logo depois foi determinado que o "limite" seria 10, quando chega no 10, a repetição para. 
+A parte "i++" significa que no fim de cada execução é incrementado, somado 1.
+
+
+                                 * While
+ 
+ While = enquanto
+ 
+ Estrutura do WHILE
+ 
+ While (<condicao>) {
+ //trecho a ser repetido
+ }
+ 
+ Exemplo utilizando o WHILE
+ 
+ import java.util.Scanner;
+
+public class Exemplo {
+	
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int numero = -1;
+        while (numero != 10) { 
+// enquanto a variável não for 10, o trecho de código será repetido
+            System.out.println(“Digite um número: “);
+            numero = in.nextInt();
+            if (numero == 10) {
+                System.out.println(“Você acertou!“);
+            } else {
+                System.out.println(“Você errou :(“);
+            }
+        }
+    }
+								   
+}
+
+ANALISANDO O CÓDIGO
+
+O exemplo representado, é pedido para que o usuário tente advinhar o número. Enquanto não acerta, é pedido ao usuário que digite qual número ele acha que é. Este trecho sempre será repetido, até que o usuário acerte. 
+
 
 
 
