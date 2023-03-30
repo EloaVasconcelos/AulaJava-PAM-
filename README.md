@@ -1,20 +1,26 @@
 # AulaJava
                                        TIPOS DE DADOS EM JAVA 
   
--Tipos primitivos: byte, short, int, long, boolean, char, float, double;
+-Tipos primitivos: byte, short, int, long, boolean, char, float, double (Tipos básicos)
 
 BYTE: Inteiro de 8 bits;
 SHORT: Inteiro de 16 bits;
-INT: Inteiro de 32 bits;
+INT: Inteiro de 32 bits, número interiro sem decimais;
 LONG: Inteiro 64 bits;
 BOOLEAN: Valor true ou false (Verdadeiro ou Falso);
 CHAR: Caracter em notação Unicode de 16 bits;
-FLOAT: Números em notação de ponto flutuante, 32 bits:
+FLOAT: Números em notação de ponto flutuante, 32 bits, números quebrados ou com vírgula;
 DOUBLE: Números em notação de ponto flutuante, 64 bits;
 
 
+-Tipos de dados por referência: string, array/matriz; (Tipos utilizados para armazenar as localizações dos objetos da memória do computador)
 
-                                 ### ESTRUTURAL CONDICIONAL EM JAVA
+ARRAY: Responsável por guardar uma variedade de valores, são como vetores; 
+Ex: intArray = {2,5,46,12,34}; - guarda múltiplos valores de inteiros;
+STRING: Caracteres formando um texto/conjunto de palavras, por exemplo "Programar é top". É um tipo mais complexo, possuindo métodos, sendo um deles o length() que nos diz quantos caracteres contêm aquela string;
+
+
+                                   ESTRUTURAL CONDICIONAL EM JAVA
 
 
 
@@ -109,7 +115,7 @@ Obs: Cada Case precisa de uma "terminação", sendo determinada pelo palavra Bre
 
 
 
-                                  ESTRUTURA DE REPETIÇÃO
+                                        ESTRUTURA DE REPETIÇÃO
 
 Estruturas que permitem repetir uma série de operações. Simplesmente repetir uma operação até que uma condição seja executada, também conhecidas como loops
 
