@@ -198,21 +198,48 @@ Button = utilizado
 
 
 TIPO CONTAINERS - Spinner
-Representa uma ComboBox 
-O Spinner permite selecionar um valor de um conjunto de dados
+
+Representa uma ComboBox no VS
+O Spinner permite selecionar um valor de um conjunto de dados. É um controle giratório que apresenta um menu suspenso. De inico irá apresentar o primeiro valor determinado, mas ao tocar no controle giratório as demais opções irão aparecer, semdo um menu suspenso
+EX: <resources>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>
+
+COMENTANDO O CÓDIGO
+O nome dado ao menu é "planets" e logo em baixo são os nomes dos planetas(os outros valores), que estarão/serão apresentados no menu suspenso em caso de 'click', esses valores irão aparecer na Spinner.
+
+
 
 
 
 
 TIPO HELPERS - Group
+Group - Grupos 
 
 
 
 
 
-TIPO GOOGLE - Adview
+
+TIPO GOOGLE - Adview (Exibição de Anúncios)
+São usados para colocar Banners 
 
 
 
 
 TIPO LEGACY - Gridlayout
+
+É usado para exibir elementos e visualizações na forma de uma grade retangular, permitindo a definição do número de linhas e colunas para a grade, além de definir como o elementos devem ser orientados. GridLayout pode conter várias exibições. 
+Em outras palavras: Divide a área do container 
+Em cada área um elemento pode ser adicionado 
+
+
