@@ -189,5 +189,30 @@ ANALISANDO O CÓDIGO
 O exemplo representado, é pedido para que o usuário tente advinhar o número. Enquanto não acerta, é pedido ao usuário que digite qual número ele acha que é. Este trecho sempre será repetido, até que o usuário acerte. 
 
 
+                                     TIPOS DE ELEMENTOS VISUAIS NO ANDROIDSTUDIO
+
+Existem diversos tipos de elementos visuais presentes no AndroidStudio, cada um com uma função e características diferentes. Dentro muitos existem os principais, são eles:
+
+TextView = utilizado como caixa de texto;
+Button = utilizado  
 
 
+TIPO CONTAINERS - Spinner
+Representa uma ComboBox 
+O Spinner permite selecionar um valor de um conjunto de dados
+
+
+
+
+TIPO HELPERS - Group
+
+
+
+
+
+TIPO GOOGLE - Adview
+
+
+
+
+TIPO LEGACY - Gridlayout
