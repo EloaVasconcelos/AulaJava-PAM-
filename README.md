@@ -231,7 +231,36 @@ Group - Grupos
 
 
 TIPO GOOGLE - Adview (Exibição de Anúncios)
-São usados para colocar Banners 
+Banner - Anúncio digital 
+São usados para colocar Banners/Anúncios na parte superior ou inferior da tela do dispositivo
+Para inserir um banner na tela utiliza-se o Adview 
+Criação de frame Layout - Mondura 
+
+Exemplo: 
+
+private FrameLayout adContainerView;
+private AdView adView;
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+  super.onCreate(savedInstanceState);
+  setContentView(R.layout.activity_main);
+
+  //Call the function to initialize AdMob SDK
+  MobileAds.initialize(this, new OnInitializationCompleteListener() {
+     @Override
+     public void onInitializationComplete(InitializationStatus initializationStatus) {
+     }
+  });
+
+  //get the reference to your FrameLayout
+  adContainerView = findViewById(R.id.adView_container);
+
+  //Create an AdView and put it into your FrameLayout
+  adView = new AdView(this);
+  adContainerView.addView(adView);
+}
+
 
 
 
