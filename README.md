@@ -1,57 +1,53 @@
 # AulaJava
-                                       TIPOS DE DADOS EM JAVA 
+
+# TIPOS DE DADOS EM JAVA 
   
--Tipos primitivos: byte, short, int, long, boolean, char, float, double (Tipos básicos)
+Tipos primitivos: byte, short, int, long, boolean, char, float, double (Tipos básicos).
 
-BYTE: Inteiro de 8 bits;
-SHORT: Inteiro de 16 bits;
-INT: Inteiro de 32 bits, número interiro sem decimais;
-LONG: Inteiro 64 bits;
-BOOLEAN: Valor true ou false (Verdadeiro ou Falso);
-CHAR: Caracter em notação Unicode de 16 bits;
-FLOAT: Números em notação de ponto flutuante, 32 bits, números quebrados ou com vírgula;
-DOUBLE: Números em notação de ponto flutuante, 64 bits;
+> - BYTE: Inteiro de 8 bits;
+> - SHORT: Inteiro de 16 bits;
+> - INT: Inteiro de 32 bits, número interiro sem decimais;
+> - LONG: Inteiro 64 bits;
+> - BOOLEAN: Valor true ou false (Verdadeiro ou Falso);
+> - CHAR: Caracter em notação Unicode de 16 bits;
+> - FLOAT: Números em notação de ponto flutuante, 32 bits, números quebrados ou com vírgula;
+> - DOUBLE: Números em notação de ponto flutuante, 64 bits;
 
 
--Tipos de dados por referência: string, array/matriz; (Tipos utilizados para armazenar as localizações dos objetos da memória do computador)
+Tipos de dados por referência: string, array/matriz; (Tipos utilizados para armazenar as localizações dos objetos da memória do computador).
 
-ARRAY: Responsável por guardar uma variedade de valores, são como vetores; 
+> - ARRAY: Responsável por guardar uma variedade de valores, são como vetores; 
 Ex: intArray = {2,5,46,12,34}; - guarda múltiplos valores de inteiros;
-STRING: Caracteres formando um texto/conjunto de palavras, por exemplo "Programar é top". É um tipo mais complexo, possuindo métodos, sendo um deles o length() que nos diz quantos caracteres contêm aquela string;
+> - STRING: Caracteres formando um texto/conjunto de palavras, por exemplo "Programar é top". É um tipo mais complexo, possuindo métodos, sendo um deles o length() que nos diz quantos caracteres contêm aquela string;
 
 
-                                   ESTRUTURAL CONDICIONAL EM JAVA
 
-
+# ESTRUTURAL CONDICIONAL EM JAVA
 
 Estrutura que possibilitam ao programa a tomar decisões e alterar seu fluxo de execução.
 
--If/Else: Tipo booleano que analisa a questão do verdadeiro ou falso, quando a condição dentro do IF for verdadeira será executada, já o ELSE será utilizado para definir o que irá acontecer se o If for falso. 
+- IF/ELSE: Tipo booleano que analisa a questão do verdadeiro ou falso, quando a condição dentro do IF for verdadeira será executada, já o ELSE será utilizado para definir o que irá acontecer se o If for falso. 
 
+*Estruturas condicionais permitem criar possibilidades diferentes em um sistema, determinado um comando específico e criando novos caminhos por meio das estruturas condicionais.*
 
-Estruturas condicionais permitem criar possibilidades diferentes em um sistema, determinado um comando específico e criando novos caminhos por meio das estruturas condicionais 
-   Existem 2 principais, são elas : If/Else e Switch/Case
+**Existem 2 principais, são elas : If/Else e Switch/Case**
 
-
-
-                               ● If/Else
-
-If= se 
-Else= Senao 
-
-Exemplo utilizando o if 
-
-Int idade =23 
-  If (idade > 18) {
-System.out.println("A entrada é permitida");
-}
-
-Comentando o Código 
+> - #### If/Else
+> If= se  
+> Else= Senao 
+>
+> **Exemplo utilizando o if**
+>
+>Int idade =23 
+  > If (idade > 18) {
+> System.out.println("A entrada é permitida");
+> }
+>
+> **Comentando o Código**
 Analisando o código vemos que o valor da variável idade é igual a 23;
 Portanto, se o número que o usuário digital for maior que 18 o sistema irá apresentar a seguinte mensagem (" entrada é permitida"), caso a condição não for atendida nada irá acontecer.
-
-Exemplo utilizando if e else 
-
+>
+**Exemplo utilizando if e else** 
 Int idade =23 
   If (idade > 18) {
     System.out.println("A entrada é permitida");
@@ -60,7 +56,7 @@ Int idade =23
 System.out.println("Entrada negada");
 }
 
-Comentando o Código 
+> **Comentando o Código**
 A mesma linha de raciocínio, no entanto se a idade digitado do usuário foi menor que 18,a seguinte mensagem será apresentada ("Entrada Negada")
 
 
@@ -189,16 +185,52 @@ ANALISANDO O CÓDIGO
 O exemplo representado, é pedido para que o usuário tente advinhar o número. Enquanto não acerta, é pedido ao usuário que digite qual número ele acha que é. Este trecho sempre será repetido, até que o usuário acerte. 
 
 
-                                     TIPOS DE ELEMENTOS VISUAIS NO ANDROIDSTUDIO
+# TIPOS DE ELEMENTOS VISUAIS NO ANDROIDSTUDIO
 
-Existem diversos tipos de elementos visuais presentes no AndroidStudio, cada um com uma função e características diferentes. Dentro muitos existem os principais, são eles:
+Existem diversos tipos de elementos visuais presentes no AndroidStudio, cada um com uma função e características diferentes. Dentre muitos, existem os principais, são eles:
 
-TextView = utilizado como caixa de texto;
-Button = utilizado  
+### TIPO TEXT 
+> - TextView.
+Utilizado como caixa de texto. Componente extremamente importante, tendo como principal utilizade exibir um texto no Android. Uma tarefa simples, a classe TextView contém uma lógica complexa que permite criarmos textos formatdados, hyperlinks, números de telefone, e-mails e outros.
+Exemplo: 
+<TextView
+    android:text="Olá Androideiro!"
+    android:background="@android:color/darker_gray"
+    android:layout_width="150dp"
+    android:layout_height="75dp" />
 
+
+### TIPO BUTTON 
+> - Button:
+O Button é um dos controles mais básicos e conhecidos do AndroidStudio, sendo usado como um botão de ação (determinamos o que ele irá realizar), respondendo a cliques do usuário. 
+>
+Exemplo: 
+<Button
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:text="Meu Botão"
+     android:onClick="clicar" />
+
+>
+> - ImageButton:
+Já o ImageButton é combinação de Button com uma ImageView, aonde ao clicarmos, uma imagem aparecerá na tela.
+>
+Exemplo:
+<ImageButton
+    android:id="@+id/imageButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/imagem" />
+
+TIPO WIDGET - View
+Widgets são as visualizações de aplicativos em miniatura, visualizações rápidas. Como por exemplo, a exibição da previsão do tempo, aonde vemos ela de forma menor e resumida, porém quando clicamos, a mesma abre o aplicativo e nos fornece informações de forma mais detalhada.
+
+TIPO LAYOUT - ConstraintLayout
+O layout define a organização de uma interface do usuário no aplicativo, como acontece na atividade. A ConstraintLayout permite posicionar, trabalhar com Widgets de maneira mais flexível.  
+
+LinearLayout 
 
 TIPO CONTAINERS - Spinner
-
 Representa uma ComboBox no VS
 O Spinner permite selecionar um valor de um conjunto de dados. É um controle giratório que apresenta um menu suspenso. De inico irá apresentar o primeiro valor determinado, mas ao tocar no controle giratório as demais opções irão aparecer, semdo um menu suspenso
 EX: <resources>
