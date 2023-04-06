@@ -60,6 +60,7 @@ System.out.println("Entrada negada");\
 }
 
 **ANALISANDO O CÓDIGO**
+
 A mesma linha de raciocínio, no entanto se a idade digitado do usuário foi menor que 18,a seguinte mensagem será apresentada ("Entrada Negada")
 
 
@@ -185,99 +186,106 @@ O exemplo representado, é pedido para que o usuário tente advinhar o número. 
 > Existem diversos tipos de elementos visuais presentes no AndroidStudio, cada um com uma função e características diferentes. Dentre muitos, existem os principais, são eles:
 
 ### TIPO TEXT 
-> - TextView.
-Utilizado como caixa de texto. Componente extremamente importante, tendo como principal utilizade exibir um texto no Android. Uma tarefa simples, a classe TextView contém uma lógica complexa que permite criarmos textos formatdados, hyperlinks, números de telefone, e-mails e outros.
-Exemplo: 
-<TextView
-    android:text="Olá Androideiro!"
-    android:background="@android:color/darker_gray"
-    android:layout_width="150dp"
-    android:layout_height="75dp" />
+> - ### TextView.
+>
+> Utilizado como caixa de texto. Componente extremamente importante, tendo como principal utilizade exibir um texto no Android. Uma tarefa simples, a classe TextView contém uma lógica complexa que permite criarmos textos formatdados, hyperlinks, números de telefone, e-mails e outros.
+>
+**Exemplo:**
+
+<TextView \
+    > android:text="Olá Androideiro!" \
+    > android:background="@android:color/darker_gray" \
+    > android:layout_width="150dp" \
+    > android:layout_height="75dp" />
 
 
 ### TIPO BUTTON 
-> - Button:
-O Button é um dos controles mais básicos e conhecidos do AndroidStudio, sendo usado como um botão de ação (determinamos o que ele irá realizar), respondendo a cliques do usuário. 
+> - ### Button:
+> O Button é um dos controles mais básicos e conhecidos do AndroidStudio, sendo usado como um botão de ação (determinamos o que ele irá realizar), respondendo a cliques do usuário. 
 >
-Exemplo: 
-<Button
-     android:layout_height="wrap_content"
-     android:layout_width="wrap_content"
-     android:text="Meu Botão"
+**Exemplo:**
+
+<Button \
+     android:layout_height="wrap_content" \
+     android:layout_width="wrap_content" \
+     android:text="Meu Botão" \
      android:onClick="clicar" />
 
+
+> - ### ImageButton:
+> Já o ImageButton é combinação de Button com uma ImageView, aonde ao clicarmos, uma imagem aparecerá na tela.
 >
-> - ImageButton:
-Já o ImageButton é combinação de Button com uma ImageView, aonde ao clicarmos, uma imagem aparecerá na tela.
->
-Exemplo:
-<ImageButton
-    android:id="@+id/imageButton"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+**Exemplo:**
+
+<ImageButton \
+    android:id="@+id/imageButton" 
+    android:layout_width="wrap_content" \
+    android:layout_height="wrap_content" \
     android:src="@drawable/imagem" />
 
-TIPO WIDGET - View
-Widgets são as visualizações de aplicativos em miniatura, visualizações rápidas. Como por exemplo, a exibição da previsão do tempo, aonde vemos ela de forma menor e resumida, porém quando clicamos, a mesma abre o aplicativo e nos fornece informações de forma mais detalhada.
+### TIPO WIDGET 
+> - ### View
+> Widgets são as visualizações de aplicativos em miniatura, visualizações rápidas. Como por exemplo, a exibição da previsão do tempo, aonde vemos ela de forma menor e resumida, porém quando clicamos, a mesma abre o aplicativo e nos fornece informações de forma mais detalhada.
 
-TIPO LAYOUT - ConstraintLayout
-O layout define a organização de uma interface do usuário no aplicativo, como acontece na atividade. A ConstraintLayout permite posicionar, trabalhar com Widgets de maneira mais flexível.  
+### TIPO LAYOUT 
+> - ### ConstraintLayout
+> O layout define a organização de uma interface do usuário no aplicativo, como acontece na atividade. A ConstraintLayout permite posicionar, trabalhar com Widgets de maneira mais flexível.  
+>
+> - ### LinearLayout 
+> Esse tipo de layout permite organizar outras exibições horizontalmente em uma única coluna ou de forma vertical em uma linha única.
+>
+> - ### FrameLayout
+> Tem a função de bloquear uma área na tela.
 
-LinearLayout 
+### TIPO CONTAINERS 
+> - ### Spinner
+> Representa uma ComboBox no VS
+> O Spinner permite selecionar um valor de um conjunto de dados. É um controle giratório que apresenta um menu suspenso. De inico irá apresentar o primeiro valor determinado, mas ao tocar no controle giratório as demais opções irão aparecer, semdo um menu suspenso.
 
-TIPO CONTAINERS - Spinner
-Representa uma ComboBox no VS
-O Spinner permite selecionar um valor de um conjunto de dados. É um controle giratório que apresenta um menu suspenso. De inico irá apresentar o primeiro valor determinado, mas ao tocar no controle giratório as demais opções irão aparecer, semdo um menu suspenso
-EX: <resources>
-    <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
-    </string-array>
+**Exemplo**: 
+
+<resources> \
+    <string-array name="planets_array"> \
+        <item>Mercury</item> \
+        <item>Venus</item> \
+        <item>Earth</item> \
+        <item>Mars</item> \
+        <item>Jupiter</item> \
+        <item>Saturn</item> \
+        <item>Uranus</item> \
+        <item>Neptune</item> \
+    </string-array> \
 </resources>
 
-COMENTANDO O CÓDIGO
-O nome dado ao menu é "planets" e logo em baixo são os nomes dos planetas(os outros valores), que estarão/serão apresentados no menu suspenso em caso de 'click', esses valores irão aparecer na Spinner.
+*O nome dado ao menu é "planets" e logo em baixo são os nomes dos planetas(os outros valores), que estarão/serão apresentados no menu suspenso em caso de 'click', esses valores irão aparecer na Spinner.*
 
+### TIPO HELPERS 
+> - ### Group
+> Essa classe controla a visibilidade de um conjunto de widgets referenciados. Widgets são referenciados por serem adicionados a uma lista separada por vírgulas de ids.
 
+### TIPO GOOGLE 
+> - ### Adview (Exibição de Anúncios)
+> Banner - Anúncio digital 
+> São usados para colocar Banners/Anúncios na parte superior ou inferior da tela do dispositivo.
+> Para inserir um banner na tela utiliza-se o Adview 
+>
+>Criação de frame Layout - Mondura 
 
+**Exemplo:** 
 
+private FrameLayout adContainerView; \
+private AdView adView; \
 
+@Override \
+protected void onCreate(Bundle savedInstanceState) { \
+  super.onCreate(savedInstanceState); \
+  setContentView(R.layout.activity_main); \
 
-TIPO HELPERS - Group
-Group - Grupos 
-
-
-
-
-
-
-TIPO GOOGLE - Adview (Exibição de Anúncios)
-Banner - Anúncio digital 
-São usados para colocar Banners/Anúncios na parte superior ou inferior da tela do dispositivo
-Para inserir um banner na tela utiliza-se o Adview 
-Criação de frame Layout - Mondura 
-
-Exemplo: 
-
-private FrameLayout adContainerView;
-private AdView adView;
-
-@Override
-protected void onCreate(Bundle savedInstanceState) {
-  super.onCreate(savedInstanceState);
-  setContentView(R.layout.activity_main);
-
-  //Call the function to initialize AdMob SDK
-  MobileAds.initialize(this, new OnInitializationCompleteListener() {
-     @Override
-     public void onInitializationComplete(InitializationStatus initializationStatus) {
-     }
+  //Call the function to initialize AdMob SDK \
+  MobileAds.initialize(this, new OnInitializationCompleteListener() { \
+     @Override \
+     public void onInitializationComplete(InitializationStatus initializationStatus) { \
+     } \
   });
 
   //get the reference to your FrameLayout
@@ -288,14 +296,10 @@ protected void onCreate(Bundle savedInstanceState) {
   adContainerView.addView(adView);
 }
 
-
-
-
-
-TIPO LEGACY - Gridlayout
-
-É usado para exibir elementos e visualizações na forma de uma grade retangular, permitindo a definição do número de linhas e colunas para a grade, além de definir como o elementos devem ser orientados. GridLayout pode conter várias exibições. 
-Em outras palavras: Divide a área do container 
-Em cada área um elemento pode ser adicionado 
+### TIPO LEGACY 
+> - ### Gridlayout
+> É usado para exibir elementos e visualizações na forma de uma grade retangular, permitindo a definição do número de linhas e colunas para a grade, além de definir como o elementos devem ser orientados. GridLayout pode conter várias exibições. 
+> Em outras palavras: Divide a área do container 
+> Em cada área um elemento pode ser adicionado 
 
 
