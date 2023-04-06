@@ -186,8 +186,9 @@ O exemplo representado, é pedido para que o usuário tente advinhar o número. 
 > Existem diversos tipos de elementos visuais presentes no AndroidStudio, cada um com uma função e características diferentes. Dentre muitos, existem os principais, são eles:
 
 ### TIPO TEXT 
-> - ### TextView.
->
+> - ### EditText
+> É uma extensão do TextView, que permite que o usuário "entre" com seu teclado no campo de texto, assim podendo ser feitas alterações no mesmo.
+> - ### TextView
 > Utilizado como caixa de texto. Componente extremamente importante, tendo como principal utilizade exibir um texto no Android. Uma tarefa simples, a classe TextView contém uma lógica complexa que permite criarmos textos formatdados, hyperlinks, números de telefone, e-mails e outros.
 >
 **Exemplo:**
@@ -226,6 +227,14 @@ O exemplo representado, é pedido para que o usuário tente advinhar o número. 
 ### TIPO WIDGET 
 > - ### View
 > Widgets são as visualizações de aplicativos em miniatura, visualizações rápidas. Como por exemplo, a exibição da previsão do tempo, aonde vemos ela de forma menor e resumida, porém quando clicamos, a mesma abre o aplicativo e nos fornece informações de forma mais detalhada.
+>
+> - ### ImageView
+> Ele tem como obejtivo exibir imagens na tela. Isso pode ser usado para a exibição de recursos armazenados no aplicativo ou para a exibição de imagens que são baixadas da internet.
+>
+> - ### ListView
+> Usada para exibir uma coleção de itens de forma linear em uma única coluna.
+>
+*As Android Views são os principais componentes empregados para desenvolver, criar as interfaces dos aplicativos Android. Além de serem responsáveis pela maior parte da interação entre o usuário e o aplicativo, elas têm um grande papel em definir o design, para que ele seja agradável e com uma alta usabilidade.*
 
 ### TIPO LAYOUT 
 > - ### ConstraintLayout
@@ -302,4 +311,42 @@ protected void onCreate(Bundle savedInstanceState) { \
 > Em outras palavras: Divide a área do container 
 > Em cada área um elemento pode ser adicionado 
 
+# REFERÊNCIAS 
+
+AdView  |  Firebase. Firebase. Disponível em: https://firebase.google.com/docs/reference/android/com/google/android/gms/ads/AdView. Acesso em: 4 abr. 2023.
+
+Anúncios em banner. Google Developers. Disponível em: <https://developers.google.com/admob/android/banner?hl=pt-br>. Acesso em: 4 abr. 2023.
+
+ConstraintLayout  |  Android Developers. Android Developers. Disponível em: https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout. Acesso em: 5 abr. 2023.
+
+CORDEIRO, Fillipe. Saiba como usar as Android Views da forma correta | AndroidPro. AndroidPro. Disponível em: https://www.androidpro.com.br/blog/desenvolvimento-android/android-views-intro/#:~:text=A%20principal%20utilidade%20do%20TextView,mails%20e%20outras%20funcionalidades%20%C3%BAteis. Acesso em: 5 abr. 2023.
+
+Curso de Java - Tipos de Dados. Ufscar.br. Disponível em: https://www.dm.ufscar.br/~waldeck/curso/java/part22.html. Acesso em: 4 abr. 2023.
+
+Estrutura de Decisão Condicional Switch em Java - Bóson Treinamentos em Ciência e Tecnologia. Bóson Treinamentos em Ciência e Tecnologia. Disponível em: http://www.bosontreinamentos.com.br/java/estrutura-de-decisao-condicional-switch-em-java/. Acesso em: 3 abr. 2023.
+
+Estruturas condicionais e estruturas de repetição em Java. Treinaweb.com.br. Disponível em: https://www.treinaweb.com.br/blog/estruturas-condicionais-e-estruturas-de-repeticao-em-java. Acesso em: 23 mar. 2023.
+GridLayout. Android Developers. Disponível em: https://developer.android.com/jetpack/androidx/releases/gridlayout?hl=pt-br. Acesso em: 4 abr. 2023.
+
+Group  |  Android Developers. Android Developers. Disponível em: https://developer.android.com/reference/androidx/constraintlayout/widget/Group. Acesso em: 5 abr. 2023.
+
+Integrate Adaptive Banner with Android Studio  |  Google Codelabs. Google Codelabs. Disponível em: https://codelabs.developers.google.com/codelabs/adaptive-banner-android-studio#3. Acesso em: 4 abr. 2023.
+
+LinearLayout  |  Android Developers. Android Developers. Disponível em: https://developer.android.com/reference/android/widget/LinearLayout. Acesso em: 5 abr. 2023.
+
+Recurso de layout. Android Developers. Disponível em: https://developer.android.com/guide/topics/resources/layout-resource?hl=pt-br. Acesso em: 5 abr. 2023.
+
+ROGÉRIO ARAÚJO. Os tipos primitivos da Linguagem Java. Blog Gran Cursos Online | Concursos Públicos Abertos 2023. Disponível em: https://blog.grancursosonline.com.br/os-tipos-primitivos-da-linguagem-java/. Acesso em: 3 abr. 2023.
+
+Spinner no Android com exemplo – Acervo Lima. Acervolima.com. Disponível em: https://acervolima.com/spinner-no-android-com-exemplo/. Acesso em: 4 abr. 2023.
+
+Spinners. Android Developers. Disponível em: https://developer.android.com/develop/ui/views/components/spinner. Acesso em: 4 abr. 2023.
+
+Switch Case Java: usando estruturas de decisão com várias condições! | Insights para te ajudar na carreira em tecnologia | Blog da Trybe. Betrybe.com. Disponível em: https://blog.betrybe.com/java/switch-case-java/. Acesso em: 23 abr. 2023.
+
+VARALLO, Vinícius. Tipos de dados por valor e por referência em Java. DevMedia. Disponível em: https://www.devmedia.com.br/tipos-de-dados-por-valor-e-por-referencia-em-java/25293. Acesso em: 6 abr. 2023.
+
+View  |  Android Developers. Android Developers. Disponível em: https://developer.android.com/reference/android/view/View. Acesso em: 23 mar. 2023.
+
+VINICIUS DOS SANTOS. Estruturas condicionais (if e else), laços de repetição (while e for) em Java. Computer Science Master. Disponível em: https://www.computersciencemaster.com.br/estruturas-condicionais-if-else-lacos-de-repeticao-while-for-em-java/. Acesso em: 17 mar. 2023.
 
