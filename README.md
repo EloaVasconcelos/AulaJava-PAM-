@@ -1,5 +1,10 @@
 # AulaJava
 
+Dupla: Eloá Vasconcelos de Macedo e Laura Cristine Silva 
+
+
+
+
 # TIPOS DE DADOS EM JAVA 
   
 > Tipos primitivos: byte, short, int, long, boolean, char, float, double (Tipos básicos).
